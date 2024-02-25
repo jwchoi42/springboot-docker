@@ -18,10 +18,7 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-<<<<<<< HEAD
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
-=======
->>>>>>> 07cd699e237258803808f89d45b9a5e54d92e119
 }
 
 tasks.named('test') {
