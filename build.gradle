@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.3'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.ssafy'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+<<<<<<< HEAD
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+=======
+>>>>>>> 07cd699e237258803808f89d45b9a5e54d92e119
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
